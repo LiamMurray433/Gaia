@@ -1,0 +1,141 @@
+/* Colour palette
+    #2F2F2F
+    #094737
+    #89B6AB
+    #367B69
+    #EFEFEF
+*/
+
+
+/* Univeral properties */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #EFEFEF;
+    color: #2F2F2F;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+
+/* WELCOME BAR AND LANGAUGE SWITCHER */ 
+.container-welcome-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #2F2F2F;
+    margin: 0px -40px;
+    
+}
+
+.container-welcome-bar a {
+    color: #2F2F2F;
+}
+
+.language-nav li{
+    display: inline-block;
+    padding: 0px 5px
+}
+
+.language-nav li a {
+    color: #2F2F2F;
+}
+
+/* Navbar Header with logo and search bar */
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: -50px
+    
+}
+
+.navbar-header img{
+    width: 80%;
+}
+
+.search{
+    display: flex;
+    position: relative;
+    width: 20%;
+    
+
+}
+.search-term{
+    width: 100%;
+    border: 3px solid #094737;
+    border-right: none;
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #094737;
+}
+
+.search-term:focus{
+    color: #89B6AB;
+}
+
+.search-button{
+    width: 30px;
+    height: 20px;
+    border: 1px solid #094737;
+    background: #89B6AB;
+    text-align: center;
+    color: #2F2F2F;
+    border-radius: 0 5px 0 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+    
+
+
+/*
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+
+        -webkit-transition: all 0.2;
+        -moz-transition: all 0.2;
+        -ms-transition: all 0.2;
+        -o-transition: all 0.2;
+        transition: all 0.2;
+
+    }
+
+        nav > ul > li > a {
+            color: #2F2F2F;
+            display: block;
+            line-height: 56px;
+            padding: 0 24px;
+            text-decoration: none;
+        }
+
+        nav > ul > li:hover{
+            background-color: #89B6AB;
+        }
+
+        nav > ul > li:hover > a {
+            color: #DCE1DE;
+        } */
+
+
