@@ -103,6 +103,8 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px;
 }
     
+
+
 nav ul{
    display: flex;
    flex-direction: row;
@@ -110,8 +112,6 @@ nav ul{
    border: 3px solid #2F2F2F;
    border-radius: 50px;
    background-color: #2F2F2F;
-   
-
 }
 
     nav ul li{
@@ -201,7 +201,7 @@ iframe{
     padding: 10px;
     background-color: #efefef;
     margin: 0 -60px;
-    
+
 }
 
 .news-container{
@@ -228,10 +228,7 @@ iframe{
 }
 .news-item-container img{
     width: 200px;
-
-
 }
-
 
 .news-item-container p{
     width: 50%;
