@@ -148,8 +148,6 @@ nav ul{
 
 
 /* Dropdown menu */
-
-
 .dropdown-content{
     display: none;
     position: absolute;
@@ -176,4 +174,18 @@ nav ul{
 
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+/* Embedded video */
+
+.we-protect-nature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    width: 900px;
+    height: 500px;
+    margin: 10px;
 }
