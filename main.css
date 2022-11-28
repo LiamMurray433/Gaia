@@ -7,7 +7,7 @@
 */
 
 
-/* Univeral properties */
+/* UNIVERSAL PROPERTIES */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 2px #2F2F2F;
-    margin: 0px -50px;
+    margin: 0px -40px;
     
 }
 
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6{
     color: #2F2F2F;
 }
 
-/* Navbar Header with logo and search bar */
+/* PAGE HEADER WITH LOGO AND SEARCH BAR */
 
 .navbar-header{
     display: flex;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px;
 }
     
-
+/* NAVBAR */
 
 nav ul{
    display: flex;
@@ -142,7 +142,7 @@ nav ul{
 
 
 
-/* Dropdown menu */
+/* DROPDOWN MENU */
 .dropdown-content{
     display: none;
     position: absolute;
@@ -171,7 +171,7 @@ nav ul{
     display: block;
 }
 
-/* Embedded video */
+/* EMBEDDED VIDEO */
 
 .we-protect-nature{
     display: flex;
@@ -190,7 +190,7 @@ iframe{
     height: 600px;
 }
 
-/* news section */
+/* NEWS SECTION */
 .news-header{
     display: flex;
     justify-content: center;
@@ -207,7 +207,7 @@ iframe{
     margin-top: 40px;
     background-color: #367B69;
     margin: 0px -60px;
-    
+    height: 500px;
 
 }
 
@@ -231,8 +231,54 @@ iframe{
 .news-item-container p{
     width: 50%;
     text-align: center;
+    line-height: 180%;
     
 }
+
+/* ENVIRONMENT PAGE */
+
+.environment-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.environment-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0px -60px;
+    height: 500px;
+    
+}
+
+.environment-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2F2F2F;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.environment-item-container img {
+    width: 400px;
+    border: 4px solid #2F2F2F;
+    margin-top: 20px;
+}
+
+
+.environment-item-container p {
+    width: 50%;
+    text-align: center;
+    line-height: 180%;
+}
+
+
+/* Footer */
 
 footer{
     display: flex;
@@ -261,5 +307,3 @@ footer{
 .footer-item a {
     color: #EFEFEF;
 }
-
-
