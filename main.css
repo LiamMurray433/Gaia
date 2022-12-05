@@ -86,18 +86,6 @@ h1, h2, h3, h4, h5, h6{
     color: #89B6AB;
 }
 
-.search-button{
-    width: 30px;
-    height: 20px;
-    border: 1px solid #094737;
-    background: #89B6AB;
-    text-align: center;
-    color: #2F2F2F;
-    border-radius: 0 5px 0 5px;
-    cursor: pointer;
-    font-size: 20px;
-}
-    
 /* NAVBAR */
 
 nav ul{
@@ -357,22 +345,21 @@ iframe{
 
 /* CONTACT FORM */
 
-form{
-    padding: 10px;
-    background-color: #094737;
-    color: #EFEFEF;
+#form-container{
+    display: flex;
+    justify-content: center;
+
 }
 
 .container-form{
-    width: 50%;
+    width: 75%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #094737;
+    color: #EFEFEF;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 30px;
+    flex-direction: column;
 }
-
-
 
 input[type=text], select, textarea{
     width: 100%;
@@ -481,3 +468,119 @@ footer{
     color: #EFEFEF;
 }
 
+/* RESPONSIVE DESIGN */
+/* tablet */
+@media screen and (max-width: 992px) {
+
+    .navbar-header{
+        flex-direction: column;
+    }
+
+    .search{
+        width: 50%;
+    }
+
+    .dropdown-content{
+        min-width: 175px;
+    }
+
+
+    iframe{
+        width: 100%;
+    }
+
+    .news-container{
+        flex-direction: column;
+        height: 200%;
+    }
+
+    .environment-container{
+        flex-direction: column;
+        height: 200%;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-container img{
+        width: 100%
+    }
+
+    .biome-img{
+        flex-direction: column;
+    }
+
+
+    .gallery-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-form{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+}
+
+
+/* mobile phone */
+
+@media screen and (max-width: 600px) {
+
+    .navbar-header{
+        flex-direction: column;
+    }
+
+    .search{
+        width: 80%;
+    }
+
+    .dropdown-content{
+        min-width: 100px;
+    }
+
+    iframe{
+        width: 100%;
+    
+    }
+
+    .news-container{
+        flex-direction: column;
+        height: 200%;
+    }
+
+    .environment-container{
+        flex-direction: column;
+        height: 1500px;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-container img{
+        width: 100%;
+    }
+
+    .biome-img{
+        flex-direction: column;
+    }
+
+    .biome-text{
+        flex-direction: column;
+    }
+
+    .gallery-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+  }

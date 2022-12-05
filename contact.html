@@ -39,7 +39,6 @@
         <a href="index.html"><img src="imgs/logo500.png" alt="logo"></a>
         <div class="search">
             <input type="text" class="search-term" placeholder="search...">
-            <button type="submit" class="search-button"></button>
         </div>
     </div>
     <!--Main navigation bar-->
@@ -59,25 +58,27 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="container-form">
-        <form>
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname">
-           
-            <label for="lname"> Last name:</label>
-            <input type="text" id="lname" name="lname">
-           
-            <label for="location">Location: </label>
-            <select name="location" id="location">
-                <option value="Europe">Europe</option>
-                <option value="Americas">Americas</option>
-                <option value="Asia">Borders</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something..."></textarea>
-            <input type="submit" value="Submit" id="submit">
-        </form>
+    <div id="form-container">
+        <div class="container-form">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+               
+                <label for="lname"> Last name:</label>
+                <input type="text" id="lname" name="lname">
+               
+                <label for="location">Location: </label>
+                <select name="location" id="location">
+                    <option value="Europe">Europe</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                </select>
+    
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something..."></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
     </div>
     <div class="social-media-container">
         <h3>Stay Connected </h3>
