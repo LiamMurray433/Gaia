@@ -31,9 +31,9 @@ function displayQuestion() {
         choicesHtml += `<label><input type="radio" name="answer" value="${choices[i]}"> ${choices[i]}</label><br>`;
     }
     questionContainer.innerHTML = `
-    <h2>${question}</h2>
+    <h2 class="question-txt">${question}</h2>
     <form id="answer-form">${choicesHtml}</form>
-    <button id="submit-btn">Submit</button>
+    <button id="submit-button">Submit</button>
   `;
     const submitButton = document.querySelector("#submit-button");
     submitButton.addEventListener("click", checkAnswer);

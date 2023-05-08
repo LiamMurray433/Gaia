@@ -384,7 +384,8 @@ textarea {
 }
 
 #submit,
-#quiz-btn {
+#quiz-btn,
+#start-bt {
     background-color: #2F2F2F;
     color: #efefef;
     border-radius: 30px;
@@ -400,26 +401,42 @@ textarea {
     background-color: #367B69;
 }
 
+
+/* QUIZ STYLING */
 #quiz-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    margin: 20px;
+    border-radius: 20px;
     box-shadow: 2 2px 5px #2F2F2F;
+
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
+#submit-button {
+    background-color: #2F2F2F;
+    color: #efefef;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 20px;
 }
 
-.feedback-correct {
-    color: #4caf50;
+#answer-form {
+    margin: 20px;
 }
 
-.feedback-incorrect {
-    color: #f44336;
+
+#submit-button:hover {
+    background-color: #367B69;
 }
+
+
 
 /* SOCIAL MEDIA BANNER */
 
@@ -501,21 +518,8 @@ footer {
     color: #EFEFEF;
 }
 
-#quiz-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 200px;
-}
 
-.start-screen {}
 
-#start-btn {
-    width: 200%;
-    height: 200%;
-}
 
 /* RESPONSIVE DESIGN */
 /* tablet */
