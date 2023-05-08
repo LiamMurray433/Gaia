@@ -400,6 +400,27 @@ textarea {
     background-color: #367B69;
 }
 
+#quiz-container {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2 2px 5px #2F2F2F;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.feedback-correct {
+    color: #4caf50;
+}
+
+.feedback-incorrect {
+    color: #f44336;
+}
+
 /* SOCIAL MEDIA BANNER */
 
 
@@ -478,6 +499,22 @@ footer {
 
 .footer-item a {
     color: #EFEFEF;
+}
+
+#quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.start-screen {}
+
+#start-btn {
+    width: 200%;
+    height: 200%;
 }
 
 /* RESPONSIVE DESIGN */
