@@ -477,17 +477,20 @@ textarea {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    border-radius: 40px;
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    border-radius: 40px;
 }
 
 .fa-instagram {
     background: #8a3ab9;
     color: white;
+    border-radius: 40px;
 }
 
 /* FOOTER */
