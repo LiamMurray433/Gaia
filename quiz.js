@@ -93,6 +93,7 @@ function checkAnswer() {
     }
 
     currentQuestion++;
+
     if (currentQuestion < quiz.length) {
         displayQuestion();
     } else {
@@ -100,5 +101,3 @@ function checkAnswer() {
     }
 }
 
-// Start the quiz
-displayQuestion();
