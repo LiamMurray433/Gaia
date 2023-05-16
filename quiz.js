@@ -98,6 +98,7 @@ function checkAnswer() {
         displayQuestion();
     } else {
         alert(`You scored ${score} out of ${quiz.length}!`);
+        alert(score / 10 * 100 + "% out of 100%")
     }
 }
 
